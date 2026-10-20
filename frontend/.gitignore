@@ -1,0 +1,17 @@
+# ไม่นำโฟลเดอร์ไลบรารีขึ้น GitHub
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ไม่นำโฟลเดอร์ Build ขึ้น GitHub
+dist/
+build/
+
+# ไม่นำไฟล์เก็บรหัสผ่าน/ฐานข้อมูลขึ้น GitHub (สำคัญมาก)
+.env
+frontend/.env
+backend/.env
+
+# ไม่นำไฟล์ระบบปฏิบัตการขึ้น GitHub
+.DS_Store
+Thumbs.db
